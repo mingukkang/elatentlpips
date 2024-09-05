@@ -41,8 +41,6 @@ cd elatentlpips
 pip install -r requirements.txt
 ```
 
-pip install --upgrade diffusers[torch]
-
 ## Quick Start
 
 ```python
