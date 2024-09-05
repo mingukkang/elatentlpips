@@ -108,9 +108,6 @@ ADA (NVIDIA source code license): https://github.com/NVlabs/stylegan2-ada-pytorc
 ## License
 E-LatentLPIPS is an open-source library under the [CC-BY-NC license](https://github.com/mingukkang/elatentlpips/blob/main/LICENSE).
 
-## Acknowledgements
-We would like to thank Tianwei Yin, Seungwook Kim, Sungyeon Kim for their valuable feedback and comments. Part of this work was done while Minguk Kang was an intern at Adobe Research. Minguk Kang and Suha Kwak were supported by the NRF grant and IITP grant funded by Ministry of Science and ICT, Korea (NRF-2021R1A2C3012728, AI Graduate School (POSTECH): IITP-2019-0-01906). Jaesik Park was supported by the IITP grant funded by the government of South Korea (MSIT) (AI Graduate School (SNU): 2021-0-01343 and AI Innovation Hub: 2021-0-02068). Jun-Yan Zhu was supported by the Packard Fellowship.
-
 ## Citation
 If you find E-LatentLPIPS useful in your research, please cite our work:
 ```bib
