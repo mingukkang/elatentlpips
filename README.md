@@ -4,7 +4,7 @@
 
 [Minguk Kang](https://mingukkang.github.io/), [Richard Zhang](https://richzhang.github.io/), [Connelly Barnes](https://www.connellybarnes.com/work/), [Sylvain Paris](https://research.adobe.com/person/sylvain-paris/), [Suha Kwak](https://suhakwak.github.io/), [Jaesik Park](https://jaesik.info/), [Eli Shechtman](https://research.adobe.com/person/eli-shechtman/), [Jun-Yan Zhu](https://www.cs.cmu.edu/~junyanz/), [Taesung Park](https://taesung.me/). In [ECCV](https://arxiv.org/abs/2405.05967), 2024.
 
-This repository contains the author’s re-implementation of E-LatentLPIPS from the Diffusion2GAN paper.
+This repository contains the author’s re-implementation of E-LatentLPIPS from my memory.
 
 # What is E-LatentLPIPS?
 
