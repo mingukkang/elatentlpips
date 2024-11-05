@@ -6,6 +6,13 @@
 
 This repository contains the author’s re-implementation of E-LatentLPIPS from my memory.
 
+# Notice
+
+We found that latentlpips has an issue with Distributed Data Parallel (DDP) training. Specifically, torch.load() creates multiple processes on the main GPU instead of distributing GPU memory across devices. You'll need to update the current elatentlpips if you plan to use it with DDP training.
+
+`pip install elatentlpips --upgrade`
+
+
 # What is E-LatentLPIPS?
 
 E-LatentLPIPS is a perceptual distance metric that operates directly in the latent space of a Latent Diffusion Model, allowing users to calculate perceptual distances for regression tasks without decoding the latents into pixel space. This bypasses the costly decoding process required by LPIPS, offering a 9.7× speed up and reducing memory usage.
