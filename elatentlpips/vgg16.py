@@ -25,7 +25,7 @@ class CalibratedLatentVGG16BN(torch.nn.Module):
             
             if not os.path.exists(f'./ckpt/{encoder}_latent_vgg16.pth.tar'):
                 torch.hub.download_url_to_file(url_path, f'./ckpt/{encoder}_latent_vgg16.pth.tar')
-            ckpt = torch.load(f'./ckpt/{encoder}_latent_vgg16.pth.tar')
+            ckpt = torch.load(f'./ckpt/{encoder}_latent_vgg16.pth.tar', map_location=lambda storage, loc: storage)
             new_state_dict = OrderedDict()
             for k, v in ckpt['state_dict'].items():
                 name = k[7:] if k.startswith('module.') else k  # remove 'module.'
