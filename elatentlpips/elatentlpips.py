@@ -136,7 +136,7 @@ class ELatentLPIPS(nn.Module):
 
                     if not os.path.exists(f"./ckpt/{self.encoder}_latest_{self.pnet_type}_tuned.pth"):
                         torch.hub.download_url_to_file(url_path, f"./ckpt/{self.encoder}_latest_{self.pnet_type}_tuned.pth")
-                    ckpt = torch.load(f"./ckpt/{self.encoder}_latest_{self.pnet_type}_tuned.pth")
+                    ckpt = torch.load(f"./ckpt/{self.encoder}_latest_{self.pnet_type}_tuned.pth", map_location=lambda storage, loc: storage)
                 else:
                     raise NotImplementedError('Encoder %s not implemented' % self.encoder)
 
